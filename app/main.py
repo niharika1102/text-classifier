@@ -7,7 +7,7 @@ load_dotenv()
 
 llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", temperature=0)
 
-message = "My order is very delayed."
+message = "The order was so amazing. I loved it."
 
 prompt = classification_prompt.invoke({"message": message})
 
